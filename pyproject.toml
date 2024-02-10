@@ -1,0 +1,19 @@
+[project]
+name = "Pictures"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "TaoChenyue", email = "chenyue.Tao@qq.com"},
+]
+dependencies = [
+    "opencv-python>=4.9.0.80",
+    "tqdm>=4.66.1",
+    "numpy>=1.26.4",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
