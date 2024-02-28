@@ -1,16 +1,16 @@
 [project]
-name = "Pictures"
+name = "StaticResource"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
     {name = "TaoChenyue", email = "chenyue.Tao@qq.com"},
 ]
 dependencies = [
-    "opencv-python>=4.9.0.80",
-    "tqdm>=4.66.1",
-    "numpy>=1.26.4",
+    "pillow>=10.2.0",
+    "tinify>=1.6.0",
+    "tqdm>=4.66.2",
 ]
-requires-python = "==3.10.*"
+requires-python = ">=3.10,<3.12"
 readme = "README.md"
 license = {text = "MIT"}
 

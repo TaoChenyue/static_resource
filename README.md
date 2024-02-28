@@ -1,1 +1,1 @@
-# Pictures
+# static resource
